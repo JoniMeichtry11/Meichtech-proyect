@@ -1,7 +1,11 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterOutlet } from '@angular/router';
-import { ContactUsComponent, FooterComponent } from './components';
+import {
+  BackgroundAnimationComponent,
+  ContactUsComponent,
+  FooterComponent,
+} from './components';
 import { ParallaxDirective } from './core/directives';
 
 @Component({
@@ -13,6 +17,7 @@ import { ParallaxDirective } from './core/directives';
     FooterComponent,
     ContactUsComponent,
     ParallaxDirective,
+    BackgroundAnimationComponent,
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',
