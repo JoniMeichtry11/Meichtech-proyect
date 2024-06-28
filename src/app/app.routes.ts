@@ -5,6 +5,7 @@ import {
   ListProyectsComponent,
   NotFoundComponent,
   RestaurantesComponent,
+  VeterinariaComponent,
 } from './pages';
 
 export const routes: Routes = [
@@ -19,6 +20,10 @@ export const routes: Routes = [
   {
     path: 'cafeterias',
     component: CafeteriasComponent,
+  },
+  {
+    path: 'veterinarias',
+    component: VeterinariaComponent,
   },
   {
     path: 'proyects/:category',
