@@ -1,0 +1,16 @@
+.banner {
+  background-image: url('../../../assets/images/banner-municipalidad.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+.overlay {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+@media (min-width: 700px) {
+  .banner {
+    background-image: url('https://nunoa.cl/wp-content/uploads/2022/09/Frontis_mun.jpg');
+    height: 50vh;
+  }
+}

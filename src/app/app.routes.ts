@@ -3,6 +3,7 @@ import {
   CafeteriasComponent,
   HomeComponent,
   ListProyectsComponent,
+  MunicipalidadComponent,
   NotFoundComponent,
   RestaurantesComponent,
   VeterinariaComponent,
@@ -24,6 +25,10 @@ export const routes: Routes = [
   {
     path: 'veterinarias',
     component: VeterinariaComponent,
+  },
+  {
+    path: 'municipalidades',
+    component: MunicipalidadComponent,
   },
   {
     path: 'proyects/:category',
