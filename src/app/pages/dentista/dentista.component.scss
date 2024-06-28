@@ -1,0 +1,18 @@
+.banner {
+  background-image: url('../../../assets/images/banner-dentista-movil.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+.overlay {
+  background: rgba(0, 0, 0, 0.5);
+}
+.degrade-bg {
+  background: linear-gradient(180deg, #2C7A7B 0%, #000000 100%);
+}
+@media (min-width: 700px) {
+  .banner {
+    background-image: url('../../../assets/images/banner-dentista.jpg');
+    height: 50vh;
+  }
+}

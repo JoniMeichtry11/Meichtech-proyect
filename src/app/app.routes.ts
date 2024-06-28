@@ -1,6 +1,7 @@
 import { Routes } from '@angular/router';
 import {
   CafeteriasComponent,
+  DentistaComponent,
   HomeComponent,
   ListProyectsComponent,
   MunicipalidadComponent,
@@ -29,6 +30,10 @@ export const routes: Routes = [
   {
     path: 'municipalidades',
     component: MunicipalidadComponent,
+  },
+  {
+    path: 'dentistas',
+    component: DentistaComponent,
   },
   {
     path: 'proyects/:category',

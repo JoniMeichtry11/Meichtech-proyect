@@ -5,3 +5,4 @@ export * from './restaurantes/restaurantes.component';
 export * from './cafeterias/cafeterias.component';
 export * from './veterinaria/veterinaria.component';
 export * from './municipalidad/municipalidad.component';
+export * from './dentista/dentista.component';
