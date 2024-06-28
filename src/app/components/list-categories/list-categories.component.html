@@ -2,7 +2,7 @@
   <h2 class="text-center text-4xl font-medium h2-animated">Servicios 💻</h2>
   <div class="flex flex-col min-[1300px]:flex-row justify-center overflow-hidden gap-8 flex-wrap">
     @for(categorie of categories; track categorie){
-      <a [href]="categorie.link" class="group relative m-0 flex h-52 w-64 sm:h-72 sm:w-96 rounded-xl shadow-xl ring-gray-900/5 mx-auto sm:max-w-lg my-14">
+      <a [href]="categorie.link" class="group relative m-0 flex h-72 w-96 rounded-xl shadow-xl ring-gray-900/5 mx-auto sm:max-w-lg my-14">
         <div class="z-10 h-full w-full overflow-hidden rounded-xl border border-gray-200 opacity-80 transition duration-300 ease-in-out group-hover:opacity-100 dark:border-gray-700 dark:opacity-70 cursor-pointer">
           <img [src]="categorie.image" class="animate-fade-in block h-full w-full scale-100 transform object-cover object-center opacity-100 transition duration-300 group-hover:scale-110" alt="" />
         </div>
