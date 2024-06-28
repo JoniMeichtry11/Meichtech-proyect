@@ -12,15 +12,28 @@ export class ListCategoriesComponent {
   categories: Categories[] = [
     {
       name: "Restaurantes",
-      image: "https://media.gq.com.mx/photos/5c927b45c0e463f033a84935/16:9/w_2560%2Cc_limit/restaurante.jpg"
+      image: "https://media.gq.com.mx/photos/5c927b45c0e463f033a84935/16:9/w_2560%2Cc_limit/restaurante.jpg",
+      link: 'restaurantes',
     },
     {
       name: "Cafeterias",
-      image: "https://dosg.net/wp-content/uploads/2018/03/cafeteria.jpg"
+      image: "https://dosg.net/wp-content/uploads/2018/03/cafeteria.jpg",
+      link: 'cafeterias',
     },
     {
       name: "Municipalidades",
-      image: "https://scontent.fros5-1.fna.fbcdn.net/v/t39.30808-6/301701554_8342042299169052_2973697019035586517_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeGFzEEPtHYTnphOTUWDRxpzrW3FE3rOoaetbcUTes6hp26jF4Gg_hhkyhpA6LACvKn-VEe2r_AOZ-QRAq3NUt3g&_nc_ohc=nh2BN898s-AQ7kNvgEjnZ2V&_nc_oc=Adh96OXr9dWVPXFQwiWT0eePf9LNVc0l3tfihI-1l_EXaMsUnWDOUWDGDxdhw0ai8-o&_nc_ht=scontent.fros5-1.fna&oh=00_AfBHqQHD48x9Zo-aAyOobnOz45YSVuD6tGn8g2dUdQdJLg&oe=6630C627"
+      image: "https://www.tresdefebrero.gov.ar/wp-content/uploads/2021/03/Render-1-scaled.jpg",
+      link: 'municipalidades',
     },
+    {
+      name: "Dentistas",
+      image: "https://img.freepik.com/foto-gratis/foto-dentista-sonriente-pie-brazos-cruzados-su-colega-mostrando-signo-bien_496169-1043.jpg?size=626&ext=jpg&ga=GA1.1.672697106.1717891200&semt=sph",
+      link: 'dentistas'
+    },
+    {
+      name: "Veterinarias",
+      image: "https://www.infobae.com/new-resizer/ZnDkR1HUD3VOYyxcl1NfySwaToc=/1440x960/filters:format(webp):quality(85)/cloudfront-us-east-1.images.arcpublishing.com/infobae/L6GI2ZSXFZGADESR57UO666ZE4.jpg",
+      link: 'veterinarias'
+    }
   ];
 }
