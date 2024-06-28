@@ -7,7 +7,9 @@
 .overlay {
   background: rgba(0, 0, 0, 0.5);
 }
-
+.degrade-bg {
+  background: linear-gradient(180deg, #064e3b 0%, #000000 100%);
+}
 @media (min-width: 700px) {
   .banner {
     background-image: url('../../../assets/images/banner-veterinaria.jpg');

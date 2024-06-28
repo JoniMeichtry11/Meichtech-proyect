@@ -7,7 +7,9 @@
 .overlay {
   background: rgba(0, 0, 0, 0.5);
 }
-
+.degrade-bg {
+  background: linear-gradient(180deg, #1A365D 0%, #000000 100%);
+}
 @media (min-width: 700px) {
   .banner {
     background-image: url('https://nunoa.cl/wp-content/uploads/2022/09/Frontis_mun.jpg');
