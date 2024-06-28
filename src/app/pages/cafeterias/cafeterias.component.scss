@@ -1,0 +1,17 @@
+
+.banner {
+  background-image: url('../../../assets/images/banner-cafeteria-movil.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+.overlay {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+@media (min-width: 700px) {
+  .banner {
+    background-image: url('../../../assets/images/banner-cafeteria.jpg');
+    height: 50vh;
+  }
+}
